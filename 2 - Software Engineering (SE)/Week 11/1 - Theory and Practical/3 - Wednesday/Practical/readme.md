@@ -35,15 +35,15 @@ virtualenv==x.x.x
 # Linux
 sudo apt-get install python3-venv    # If needed
 python3 -m venv .django_venv
-source .venv/bin/activate
+source .django_venv/bin/activate
 
 # macOS
 python3 -m venv .django_venv
-source .venv/bin/activate
+source .django_venv/bin/activate
 
 # Windows
 py -m venv .django_venv
-.venv\scripts\activate
+.django_venv\scripts\activate
 ```
 
 Once activated, your terminal prompt should look like this:
